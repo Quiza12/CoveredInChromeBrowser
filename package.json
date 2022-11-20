@@ -1,0 +1,32 @@
+{
+  "name": "covered-in-chromium-browser",
+  "version": "1.0.0",
+  "description": "A browser for the Violent Soho fans.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quiza12/CoveredInChromeBrowser.git"
+  },
+  "author": "Matthew Querzoli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quiza12/CoveredInChromeBrowser/issues"
+  },
+  "homepage": "https://github.com/Quiza12/CoveredInChromeBrowser#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.3",
+    "@electron-forge/maker-deb": "^6.0.3",
+    "@electron-forge/maker-rpm": "^6.0.3",
+    "@electron-forge/maker-squirrel": "^6.0.3",
+    "@electron-forge/maker-zip": "^6.0.3",
+    "electron": "^21.3.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
